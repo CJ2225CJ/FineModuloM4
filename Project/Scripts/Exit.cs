@@ -6,5 +6,7 @@ public class Exit : MonoBehaviour
     {
         winGameObject.SetActive(true);
         Debug.Log("You Win");
+        Cursor.visible = true;
+        Cursor.lockState = CursorLockMode.None;
     }
 }
